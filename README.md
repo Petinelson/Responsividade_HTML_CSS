@@ -8,5 +8,3 @@
 * https://kinsta.com/pt/blog/design-responsivo-web/
 * https://rockcontent.com/br/blog/site-responsivo/
 
-
->>> Nunca pare pela busca do conhecimento.
