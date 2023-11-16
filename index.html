@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body, html {
+          height: 100%;
+          margin: 0;
+        }
+        .container {
+          display: flex;
+          flex-direction: column;
+          height: 100%;
+        }
+        .header {
+          background-color: #ffcc00;
+          padding: 20px;
+          text-align: center;
+        }
+        .content {
+          display: flex;
+          flex: 1;
+        }
+        .sidebar {
+          background-color: #cc0000;
+          padding: 20px;
+          width: 200px; 
+          order: 2; /* Sequência de exibição | https://www.w3schools.com/cssref/css3_pr_order.php */
+        }
+        .main-content {
+          background-color: #008000;
+          padding: 20px;
+          flex: 1; /* Ocupa o espaço restante | https://www.w3schools.com/cssref/css3_pr_flex.php */
+          order: 1;
+        }
+        .footer {
+          background-color: #800000;
+          padding: 20px;
+          text-align: center;
+        }
+      
+        /* Estilos para telas menores (dispositivos móveis) | https://encurtador.com.br/arNPT */
+        @media (max-width: 600px) {
+          .content {
+            flex-direction: column;
+          }
+          .sidebar,
+          .main-content {
+            width: auto; /* Ocupa toda a largura disponível */
+            order: 0; /* Reseta a ordem para empilhar corretamente */
+          }
+        }
+      </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+          header
+        </div>
+        <div class="content">
+          <div class="sidebar">
+            barra lateral
+          </div>
+          <div class="main-content">
+            conteúdo
+          </div>
+        </div>
+        <div class="footer">
+          rodapé
+        </div>
+      </div>
+</body>
+</html>
