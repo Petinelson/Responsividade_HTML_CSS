@@ -10,3 +10,5 @@
 * https://kinsta.com/pt/blog/design-responsivo-web/
 * https://rockcontent.com/br/blog/site-responsivo/
 
+## Observação
+> Vale lembrar que atualmente o HTML já possui tag's para cabeçalho, conteúdo e rodapé. Estes são conhecidos como header, main e footer. Essas tags são parte do conjunto de elementos semânticos introduzidos no HTML5, que ajudam a criar uma estrutura de página clara e acessível, tanto para os usuários quanto para as ferramentas de busca e leitores de tela.
