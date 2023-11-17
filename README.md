@@ -1,5 +1,6 @@
 ## Informação
-> Elaboração de responsividade de um site, utilizando as seguintes div's: Header, Conteudo, Barra Lateral e Rodapé.
+> Demonstração de responsividade de um site, utilizando as seguintes div's: Cabeçalho, Conteúdo, Barra Lateral e Rodapé.
+> Esta demonstração visa apenas orientar o aluno sobre técnicas de responsividade.
 
 ### Sites sobre responsividade
 * https://www.w3schools.com/css/css_rwd_intro.asp
